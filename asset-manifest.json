@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/anekant-tech/iNotebook.git/static/css/main.d1728a79.css",
-    "main.js": "/anekant-tech/iNotebook.git/static/js/main.c9d89dee.js",
-    "index.html": "/anekant-tech/iNotebook.git/index.html",
-    "main.d1728a79.css.map": "/anekant-tech/iNotebook.git/static/css/main.d1728a79.css.map",
-    "main.c9d89dee.js.map": "/anekant-tech/iNotebook.git/static/js/main.c9d89dee.js.map"
+    "main.css": "/iNotebook/static/css/main.d1728a79.css",
+    "main.js": "/iNotebook/static/js/main.c9d89dee.js",
+    "index.html": "/iNotebook/index.html",
+    "main.d1728a79.css.map": "/iNotebook/static/css/main.d1728a79.css.map",
+    "main.c9d89dee.js.map": "/iNotebook/static/js/main.c9d89dee.js.map"
   },
   "entrypoints": [
     "static/css/main.d1728a79.css",
