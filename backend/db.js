@@ -1,8 +1,11 @@
 const mongoose = require('mongoose');
 
+require('dotenv').config()
+
+
 //const mongoURI = "mongodb://127.0.0.1:27017/ecommerce?readPreference=primary&appname=MongoDB%20Compass&ssl=false";
 
-const mongoURI="mongodb+srv://anekantjain:veera2000@cluster0.5dtuq.mongodb.net/inotebook?retryWrites=true&w=majority"
+const mongoURI=process.env.MONGOURI
    
 connectToMongo=()=>{mongoose.connect(mongoURI 
     );
