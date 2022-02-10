@@ -2,6 +2,9 @@ const mongoose = require('mongoose');
 require('dotenv').config()
 
 
+require('dotenv').config()
+
+
 //const mongoURI = "mongodb://127.0.0.1:27017/ecommerce?readPreference=primary&appname=MongoDB%20Compass&ssl=false";
 
 const mongoURI=process.env.MONGOURI

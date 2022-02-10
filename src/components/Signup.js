@@ -41,6 +41,8 @@ function Signup(props) {
   return (
     <>
       <div>
+      <div className="mt-2 text-center">
+        <h2>Please signup to use iNoteBook</h2></div>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label htmlFor="name" className="form-label">
@@ -100,7 +102,7 @@ function Signup(props) {
           </div>
 
           <button type="submit" className="btn btn-primary">
-            Login
+            sign up
           </button>
         </form>
       </div>

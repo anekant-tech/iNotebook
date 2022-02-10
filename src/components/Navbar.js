@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from 'react';
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
 function Navbar(props) {
@@ -8,9 +8,7 @@ function Navbar(props) {
     navigate("/Login");
   };
   let location = useLocation();
-  useEffect(() => {
-    console.log(location.pathname);
-  }, [location]);
+  
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
